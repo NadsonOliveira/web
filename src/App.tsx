@@ -1,7 +1,8 @@
 import { useState } from "react";
+import { Widget } from "./componets/widget";
 
 function App() {
-  return <h1>hello word</h1>;
+  return <Widget />;
 }
 
-export default App;
+export { App };
